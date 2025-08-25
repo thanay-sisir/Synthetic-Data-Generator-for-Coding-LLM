@@ -21,11 +21,3 @@ This project, `python-to-triton-llm`, is an advanced end-to-end machine learning
     * A novel **Muon optimizer**, a hybrid momentum-orthogonalized approach, is implemented to enhance model convergence and stability.
 
 
-## Technical Features
-
-* **Custom Transformer LLM Implementation:** From-scratch PyTorch implementation of a decoder-only Transformer, providing granular control over architecture and training.
-* **Automated Synthetic Data Generation & Validation:** A sophisticated system for creating diverse Python-Triton code examples and programmatically verifying their correctness, ensuring a high-quality training corpus.
-* **Advanced Training Techniques:** Integration of state-of-the-art optimization strategies including Automatic Mixed Precision (AMP), gradient accumulation, and a custom Muon optimizer for efficient and effective model training.
-* **Python-to-Triton Code Generation:** The trained LLM is capable of taking a Python function as input and generating a corresponding, functionally equivalent Triton kernel.
-* **Interactive Demonstration:** Includes an interactive command-line interface for real-time testing and demonstration of the model's code generation capabilities.
-* **Modular and Extensible Design:** The codebase is structured into distinct modules for data processing, model definition, and training logic, facilitating future enhancements and scalability.
